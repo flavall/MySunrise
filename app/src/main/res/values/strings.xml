@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MySunrise</string>
+
+    <string name="sun">Sonne</string>
+    <string name="grass">Grass</string>
+    <string name="sky">Himmel</string>
+    <string name="clock">Uhr</string>
+    <string name="hour">Zeiger</string>
+</resources>
