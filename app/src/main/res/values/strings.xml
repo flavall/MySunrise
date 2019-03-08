@@ -6,4 +6,7 @@
     <string name="sky">Himmel</string>
     <string name="clock">Uhr</string>
     <string name="hour">Zeiger</string>
+
+    <string name="repeat_sun">5</string>
+    <string name="repeat_clock">2</string>
 </resources>

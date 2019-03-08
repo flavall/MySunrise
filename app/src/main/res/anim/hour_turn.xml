@@ -3,13 +3,17 @@
     android:duration="10000"
     android:fillAfter="true"
     android:interpolator="@android:anim/linear_interpolator"
+
     android:shareInterpolator="false" >
 
     <rotate
-        android:fromDegrees="0"
+        android:fromDegrees="180"
         android:pivotX="50%"
         android:pivotY="50%"
-        android:toDegrees="1440"
+        android:toDegrees="540"
         android:repeatCount="@string/repeat_clock"
-        android:repeatMode="restart"/>
+        android:repeatMode="restart"
+        />
+
+
 </set>

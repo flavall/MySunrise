@@ -14,12 +14,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Получим ссылку на солнце
-        ImageView sunImageView = (ImageView) findViewById(R.id.sun);
+        ImageView sunImageView = findViewById(R.id.sun);
         // Анимация для восхода солнца
         Animation sunRiseAnimation = AnimationUtils.loadAnimation(this, R.anim.sun_rise);
 //        sunRiseAnimation.setRepeatCount(5);
         // Подключаем анимацию к нужному View
         sunImageView.startAnimation(sunRiseAnimation);
+
+        ImageView clockImageView = findViewById(R.id.clock);
+        Animation clockAnimation = AnimationUtils.loadAnimation(this, R.anim.clock_turn);
+        clockImageView.startAnimation(clockAnimation);
+
+        ImageView hourImageView = findViewById(R.id.hour_hand);
+        Animation hourAnim = AnimationUtils.loadAnimation(this, R.anim.hour_turn);
+        hourImageView.startAnimation(hourAnim);
 
     }
 }
